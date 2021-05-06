@@ -92,14 +92,33 @@ body {
     }    
     }
     
+    .menu > a {
+        text-decoration: none;
+    }
+
     .menu {
         display: flex;
         justify-content: center;
         align-items: center;
         font-size: 25px;
+        opacity: 0;
+
+        animation-name: menu;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
     }
-    
-    .text1 a {
-        text-decoration: none;
-        margin: 20px;
+
+    @keyframes menu {
+        0% {
+            opacity: 0;
+        }
+        30% {
+            opacity: 0.3;
+        }
+        50% {
+            opacity: 0.5;
+        }
+        100% {
+            opacity: 0.8;
+        }
     }
