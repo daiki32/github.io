@@ -101,11 +101,12 @@ body {
         text-decoration: none;
         margin: 20px;
     }
-    
-    .text2 a {
-        text-decoration: none;
-        margin: 20px;
-    }
+
+    /* @media (max-width: 749px) {
+        .bg {
+
+        }
+    } */
 
 
 
